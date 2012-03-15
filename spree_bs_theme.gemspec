@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_rdr_theme'
-  s.version     = '0.1.0'
+  s.name        = 'spree_bs_theme'
+  s.version     = '1.0.0'
   s.summary     = 'A Spree Commerce Theme'
 
-  s.author        = 'Brian D. Quinn'
-  s.email         = 'brian@railsdog.com'
+  s.author        = 'Damiano Giacomello'
+  s.email         = 'damiano.giacomello@diginess.it'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -13,4 +13,6 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.has_rdoc = false
+  s.add_dependency 'spree_core'
+  s.add_dependency 'spree_auth'
 end

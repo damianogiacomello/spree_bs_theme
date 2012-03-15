@@ -1,6 +1,6 @@
-module SpreeRdrTheme
+module SpreeBsTheme
   class Engine < Rails::Engine
-    railtie_name "spree_rdr_theme"
+    railtie_name "spree_bs_theme"
 
     config.autoload_paths += %W(#{config.root}/lib)
 
