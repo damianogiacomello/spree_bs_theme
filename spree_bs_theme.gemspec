@@ -15,4 +15,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
   s.add_dependency 'spree_core'
   s.add_dependency 'spree_auth'
+  s.add_dependency 'simple_form'
+  s.add_dependency 'bootstrap-sass'
+  
 end

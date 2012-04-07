@@ -12,7 +12,7 @@ module SpreeBsTheme
       end
 
       def add_stylesheets
-        inject_into_file "app/assets/stylesheets/store/all.css", " *= require store/rdr\n", :before => /\*\//, :verbose => true
+        inject_into_file "app/assets/stylesheets/store/all.css", " *= require store/bs\n", :before => /\*\//, :verbose => true
       end
     end
   end
